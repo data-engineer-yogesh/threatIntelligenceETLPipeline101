@@ -1,4 +1,3 @@
-# threatIntelligenceETLPipeline101
 
 # Threat Intelligence ETL Pipeline
 
