@@ -29,15 +29,22 @@ source .venv/bin/activate
 ```
 
 3. Install Dependencies
+```
 python -m pip install -r requirements.txt
+```
 
-4. Check Available Options
+5. Check Available Options
+```
 python main.py --help
+```
 
-6. Check Version
+7. Check Version\
+```
 python main.py --version
+```
 
-8. Run the ETL Pipeline
+9. Run the ETL Pipeline
+
 python main.py
 
 Pipeline:
