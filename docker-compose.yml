@@ -1,0 +1,16 @@
+services:
+  threat-intelligence-etl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: threat-intelligence-etl
+
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+
+    environment:
+      PYTHONUNBUFFERED: "1"
+
+    restart: "no"
