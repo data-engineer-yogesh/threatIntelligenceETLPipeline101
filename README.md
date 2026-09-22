@@ -45,7 +45,9 @@ python main.py --version
 
 9. Run the ETL Pipeline
 
+```
 python main.py
+```
 
 Pipeline:
 
@@ -62,6 +64,7 @@ python -m pytest -v
 8. Run with Docker
 
 Build the image:
+
 ```
 docker compose build
 ```
